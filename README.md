@@ -14,9 +14,9 @@
 <li> Model Selection II   :  Performed Hyperparameter tuning using gridsearchCV and randomizedSearchCV.</li>
 <li> Pickle File          :  Selected model as per best accuracy and created pickle file using joblib .</li>
 <li> Webpage & deployment :  Created a webform that takes all the necessary inputs from user and shows output.
-                                After that I have deployed project on heroku and Microsoft Azure</li></pre>
+                                After that I have deployed project on heroku</li></pre>
 
-## Deployment Links
+## Deployment Link
 <p> Link Heroku : https://market-analysis-project.herokuapp.com// <br>
 
 

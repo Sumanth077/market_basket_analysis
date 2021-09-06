@@ -21,8 +21,8 @@
 
 
 ## UserInterface
-![MainUI](https://user-images.githubusercontent.com/66694715/132165908-7f233e90-cc90-4f34-b18a-40f74518d182.png)
-(https://user-images.githubusercontent.com/66694715/132165912-ae071985-bf2f-413b-ae1e-084c8e1290f0.png)
+![MainUI-1](https://user-images.githubusercontent.com/66694715/132165908-7f233e90-cc90-4f34-b18a-40f74518d182.png)
+![MainUI-2](https://user-images.githubusercontent.com/66694715/132165912-ae071985-bf2f-413b-ae1e-084c8e1290f0.png)
 
 ## Technologies Used
 <pre> 

@@ -1,4 +1,4 @@
-# FlightFareEstimatorProject 
+# Market Basket Analysis
 ## Problem Statement:
 
 <p>Identifying the customer’s mindset on the product is the difficult one because many people will refuse to give a review. Furthermore, every customer's expectation of a product differs. Despite this, we are using a machine-learning algorithm to predict customer ratings. At the end of the project, the customer gets to know the general opinion on that product. For the seller, it will be helpful to identify the lagging part of that product.</p>
@@ -21,7 +21,8 @@
 
 
 ## UserInterface
-![MainUI](https://user-images.githubusercontent.com/40850370/129313161-b74283ea-0ad7-4e7e-a196-578dc2ed49ef.png)
+![MainUI](https://user-images.githubusercontent.com/66694715/132165908-7f233e90-cc90-4f34-b18a-40f74518d182.png)
+  (https://user-images.githubusercontent.com/66694715/132165912-ae071985-bf2f-413b-ae1e-084c8e1290f0.png)
 
 ## Technologies Used
 <pre> 

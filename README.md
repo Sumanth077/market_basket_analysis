@@ -36,7 +36,7 @@
 
 </pre>
 
-## HLD , LLD & WireFrame
+## HLD , LLD , WireFrame & DPR
 link : https://drive.google.com/drive/folders/1S3Ij3Sw2LRjYfrC1WaC8L6gfAg_96Dvy
 
 ## Help Me Improve

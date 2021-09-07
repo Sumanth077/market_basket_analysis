@@ -37,7 +37,7 @@
 </pre>
 
 ## HLD , LLD , WireFrame & DPR
-link : https://drive.google.com/drive/folders/1S3Ij3Sw2LRjYfrC1WaC8L6gfAg_96Dvy
+link : https://drive.google.com/drive/folders/1knzxxSa6_YN6EPVAJDOACOft3R9ALQK1?usp=sharing
 
 ## Help Me Improve
 <p> Hello Reader if you find any bug please consider raising issue I will address them asap.</p>

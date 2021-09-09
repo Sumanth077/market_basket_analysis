@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div style="color:blue">
+        <form action="{{ url_for('predict')}}" method="post">
+            <h2>Market Basket Analysis</h>
+            <h3>What is Your Order Status?</h3><br><select id="first" name="order_status" required="required">
+                    <option value="approved">approved</option>
+                    <option value="canceled">canceled</option>
+                    <option value="delivered">delivered</option>
+                    <option value="invoiced">invoiced</option>
+                    <option value="processing">processing</option>
+                    <option value="shipped">shipped</option>
+                    </select>
+            <h3>No of Payment Methods?</h3><br><input id="second" name="payment_sequential" required="required">
+            <h3>What is your Payment Type?</h3><select id="third" name="payment_type" required="required">
+                    <option value="boleto">boleto</option>
+                    <option value="credit_card">credit_card</option>
+                    <option value="debit_card">debit_card</option>
+                    <option value="voucher">voucher</option>
+                    </select>
+            <h3>No of installments?</h3><br><input id="fourth" name="payment_installments" required="required">
+            <h3>What is the Payment_Value?</h3><br><input id="fifth" name="payment_value" required="required">
+            <h3>What Is the customer city?</h3><br><input type="text" id="six" name="customer_city"  required="required">
+            <h3>What is the customer state?</h3><br><input type="text" id="seven" name="customer_state" required="required">
+            <h3>What is the price value?</h3><br><input id="eight" name="Price" required="required">
+            <h3>What is the freight value?</h3><br><input id="nin" name="freight_value" required="required">
+            <h3>What is the product category name?</h3><br><input type="text" id="nine" name="product_category_name" required="required">
+            <h3>No of photos about the product?</h3><br><input id="eleven" name="product_photos_qty" required="required">
+            <h3>What is the seller city?</h3><br><input type="text" id="sixteen" name="seller_city" required="required">
+            <h3>What is the seller state?</h3><br><input type="text" id="seventeen" name="seller_state" required="required">
+            <h3>No of days taken to deliver?</h3><br><input id="eighteen" name="days_taken_to_deliver" required="required">
+
+            <br><br><button id="sub" type="submit ">Prediction</button>
+            <br>
+
+
+
+
+        </form>
+         <footer class="button"><p>Created by Sumanth - Raja. © 2021</p></footer>
+
+
+
+        <br><br><h3>{{ prediction_text }}<h3>
+    </div>
+
+
+
+
+    <style>
+        body {
+            background-color: lightslategray;
+            text-align: center;
+            padding: 0px;
+        }
+
+        #research {
+            font-size: 18px;
+            width: 100px;
+            height: 23px;
+            top: 23px;
+        }
+
+        #box {
+            border-radius: 60px;
+            border-color: 45px;
+            border-style: solid;
+            font-family: cursive;
+            text-align: center;
+            background-color: rgb(168, 131, 61);
+            font-size: medium;
+            position: absolute;
+            width: 700px;
+            bottom: 9%;
+            height: 850px;
+            right: 30%;
+            padding: 0px;
+            margin: 0px;
+            font-size: 14px;
+        }
+
+        #fuel {
+            width: 83px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 20px;
+        }
+
+        #fuel:hover {
+            background-color: coral;
+        }
+
+        #research {
+            width: 99px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #research:hover {
+            background-color: coral;
+        }
+
+        #resea {
+            width: 99px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #resea:hover {
+            background-color: coral;
+        }
+
+        #sub {
+            width: 120px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #sub:hover {
+            background-color: darkcyan;
+        }
+
+        #first {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #second {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #third {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #fourth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</body>
+
+</html>
